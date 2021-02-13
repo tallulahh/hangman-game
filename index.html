@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Javascript Hangman Game</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="title">Javascript Hangman</div>
+<div class="letters"></div>
+<div class="usedLetters"></div>
+<div class="board">
+  <div class="hangmanProgress">
+  <canvas id="canvas" width="600" height="400"></canvas>
+  </div>
+  <div class="secretWord"></div>
+</div>
+
+<div class="gameFinish" id="win">
+  <div class="finishText">Congratulations</div>
+  <div class="restartBtn" onclick="startGame();">Play Again</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
