@@ -103,7 +103,7 @@ function checkChar(char){
       
         //check win/lose progress and reveal correctly found letters
         checkWin();
-        let toChange = $("span").[i];
+        let toChange = $("span")[i];
         toChange.innerHTML = randomWord[i];
     } 
    };
